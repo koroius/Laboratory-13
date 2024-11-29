@@ -9,8 +9,8 @@ void inputMatrix(int matrix[10][10], int row, int col, char name) {
             scanf("%d", &matrix[i][j]);
         }
     }
-    printf("-----------------\n");  // Separator after input
-}  // <-- Missing closing brace was here
+    printf("-----------------\n");
+} 
 
 // Function to display a matrix
 void displayMatrix(int matrix[10][10], int row, int col, char name) {
